@@ -1,5 +1,5 @@
 import React from "react";
-import { ExampleComponent } from "@monorepo/ui-kit";
+import { ExampleComponent, Button } from "@monorepo/ui-kit";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -20,6 +20,7 @@ function App() {
           Learn React
         </a>
         <ExampleComponent text="Hello World!!!" />
+        <Button>Click Me!!!</Button>
       </header>
     </div>
   );
