@@ -1,0 +1,10 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start-agent": "yarn workspace @monorepo/agent start"
+  }
+}
